@@ -1,0 +1,41 @@
+.overlay{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  transition:0.5s ease;
+  opacity:0;
+  height: 500px;
+  font-size: 20px;
+  text-align: center;
+  
+}
+
+.overlay:hover{
+  opacity: 1;
+  color: azure;
+  
+  
+}
+
+.List{
+  display: flex;
+  justify-content: start;
+  margin: 10px;
+  position: relative;
+  transition: transform 0.2s;
+  height: 500px;
+  
+}
+
+.List:hover{
+  cursor:pointer;
+  transform: scale(1.1);
+}
+
+.imagen{
+  height: 500px;
+  width: 300px;
+}
